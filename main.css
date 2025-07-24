@@ -33,6 +33,11 @@ body {
 
   }
 
+  .githubicon
+  {
+    width:50px
+  }
+
    ul {
        list-style-type: none;
       margin: 0;
@@ -60,6 +65,12 @@ li a {
 li a:hover {
   background-color: #1672eb;
 }
+  .grid {
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
+
+}
+
 
 
 footer {
